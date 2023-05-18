@@ -3,6 +3,7 @@ module github.com/chainguard-dev/kontext
 go 1.20
 
 require (
+	github.com/chainguard-dev/go-apk v0.0.0-20230517200002-2ac639294fed
 	github.com/google/go-containerregistry v0.15.1
 	golang.org/x/sync v0.2.0
 	knative.dev/pkg v0.0.0-20230502134655-db8a35330281
@@ -21,5 +22,6 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/vbatts/tar-split v0.11.3 // indirect
-	golang.org/x/sys v0.7.0 // indirect
+	golang.org/x/build v0.0.0-20220928220451-9294235e16f5 // indirect
+	golang.org/x/sys v0.8.0 // indirect
 )
